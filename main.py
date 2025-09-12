@@ -1,4 +1,4 @@
-weight = input('请输入重量：')
+weight = input()
 if weight[-2:] == 'kg':
     exchange = eval(weight[0:-2]) * 2.2046
     print('对应的英制重量为22.046磅')
